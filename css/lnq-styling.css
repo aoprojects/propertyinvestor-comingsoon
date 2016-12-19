@@ -1,0 +1,120 @@
+/* below is custom css for LNQ squeeze page, not from the bootstrap template */
+
+$blue: #5CA3D1;
+
+#agile-sign-up-form {
+	margin: 0 auto;
+	text-align: center;
+}
+
+#agile-sign-up-form .form-control {
+
+}
+
+.blue {
+	color: #5CA3D1 !important;
+}
+
+.blue-lighter {
+	color: #ACD0E7 !important;
+}
+
+.centered {
+	margin: 0 auto;
+}
+
+#coming-soon {
+	position: relative;
+	top: 15px;
+}
+
+.footer-logo {
+	width: 100px;
+}
+
+form {
+	text-align: center;
+	margin: 0 auto;
+}
+
+form input {
+	text-align: center;
+}
+
+.logo {
+   max-width: 200px;
+   margin: 0 auto;
+   position: relative;
+   bottom: -22px;
+}
+#team h2 {
+	color: #5CA3D1;
+}
+.team-leader-box {		
+	padding-top: 35px;
+	/*box-shadow: 1px 1px 5px rgba(92,163,209,0.3); /* transparent blue */*/
+}
+.no-border-before {
+	box-shadow: none !important;
+	border-top: none;
+}
+.team-leader-box h3 {
+	font-size: 18px;
+}
+.team-leader-box p {
+	padding: 15px;
+}
+.team-leader-box span {
+	color: #5CA3D1;
+	font-size: 16px;
+}
+
+/* begin media query specific styling below */
+
+@media only screen and (max-width: 767px) {
+	.team-leader-box {
+		width: 100hw;
+		/*padding-top: 15px;*/
+		padding-bottom: 15px;
+	}
+
+	.team-leader-box p {
+		font-size: 15px;
+		padding-top: 25px;
+	}
+
+}/* for xs devices */
+
+@media only screen and (min-width: 768px) {
+	/*below begins temporary styling, while we don't have headshots. TODO */
+	.team-leader-box p {
+		font-size: 16px;
+	}
+	.leader-1 {
+		margin-top: 140px;
+	}
+	.leader-2 {
+		margin-top: 100px;
+	}
+	.leader-3 {
+		margin-top: 180px;
+	}
+	.leader-4 {
+		margin-top: 40px;
+	}
+	.leader-5 {
+		margin-top: 120px;
+	}
+} /* for tablet and all larger */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+
+}/* for sm devices only */
+
+@media only screen and (min-width: 992px) {
+
+}/* for md and lg devices only */
+
+
+
+
