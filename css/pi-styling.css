@@ -11,14 +11,6 @@ $blue: #5CA3D1;
 
 }
 
-.blue {
-	color: #5CA3D1 !important;
-}
-
-.blue-lighter {
-	color: #ACD0E7 !important;
-}
-
 .centered {
 	margin: 0 auto;
 }
@@ -67,6 +59,12 @@ form input {
 .team-leader-box span {
 	color: #5CA3D1;
 	font-size: 16px;
+}
+.theme-color1 {
+	color: white !important;
+}
+.them-color2 {
+	color: gray !important;
 }
 
 /* begin media query specific styling below */
