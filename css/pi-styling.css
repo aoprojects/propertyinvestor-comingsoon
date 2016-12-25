@@ -10,18 +10,15 @@ $blue: #5CA3D1;
 #agile-sign-up-form .form-control {
 
 }
-
+body {
+	background: rgb(30,30,30);
+}
 .centered {
 	margin: 0 auto;
 }
-
 #coming-soon {
 	position: relative;
 	top: 15px;
-}
-
-.footer-logo {
-	width: 100px;
 }
 
 form {
@@ -31,6 +28,13 @@ form {
 
 form input {
 	text-align: center;
+}
+footer {
+	padding: 20px;
+}
+footer h6 {
+	margin: 0 auto;
+	padding: 20px;
 }
 
 .logo {
