@@ -36,12 +36,14 @@ footer h6 {
 	margin: 0 auto;
 	padding: 20px;
 }
-
 .logo {
    max-width: 200px;
    margin: 0 auto;
    position: relative;
    bottom: -22px;
+}
+.purple {
+	color: rgb(120,82,169) !important;
 }
 #team h2 {
 	color: #5CA3D1;

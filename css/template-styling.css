@@ -146,13 +146,14 @@ color: #fff;
 
 .link{
 	padding:15px 35px;
-	background:#5CA3D1;
+	background:rgb(120,82,169); /* purple */
 	color:#fff !important;
 	font-size:16px;
 	font-weight:400;
 	font-family: 'Montserrat', sans-serif;
 	display:inline-block;
 	border-radius:3px;
+	border: none;
 	text-transform:uppercase;
 	line-height:25px;
 	margin-bottom:20px;
@@ -162,14 +163,16 @@ color: #fff;
 }
 .link:hover {
 	text-decoration:none;
-	color:#5CA3D1 !important;
+	color:rgb(120,82,169) !important;
 	background:#fff;
 }
 
 .link:active, .link:focus {
-	background: #7cc576;
+	background: rgb(120,82,169);
 	text-decoration:none;
 	color:#fff !important;
+	border: none;
+	outline: none;
 }
 
 /* Navigation
