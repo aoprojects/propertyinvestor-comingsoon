@@ -11,7 +11,7 @@ $blue: #5CA3D1;
 
 }
 body {
-	background: rgb(30,30,30);
+	background: rgb(30,30,30); /* dark */
 }
 .centered {
 	margin: 0 auto;
@@ -30,7 +30,7 @@ form input {
 	text-align: center;
 }
 footer {
-	padding: 20px;
+	padding: 20px 20px 40px 20px;
 }
 footer h6 {
 	margin: 0 auto;
