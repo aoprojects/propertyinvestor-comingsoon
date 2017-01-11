@@ -11,12 +11,13 @@ $blue: #5CA3D1;
 
 }
 body {
-	background: rgb(30,30,30); /* dark */
+	background-color: #433F40;
+	/*background: rgb(30,30,30); dark */
 }
 .centered {
 	margin: 0 auto;
 }
-#coming-soon {
+#coming-soon-product {
 	position: relative;
 	top: 15px;
 }
