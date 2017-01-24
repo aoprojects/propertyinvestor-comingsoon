@@ -217,5 +217,17 @@ $(window).load(function(){
 });
 
 </script>
+
+
+<!-- below is tracking code for the Agile CRM JS API  -->
+<script id="_agile_min_js" async type="text/javascript" src="https://propertyinvestor.agilecrm.com/stats/min/agile-min.js"> </script>
+<script type="text/javascript" >
+var Agile_API = Agile_API || {}; Agile_API.on_after_load = function(){
+_agile.set_account('5n8hrncjgfhf10h3o5sognkv1s', 'propertyinvestor');
+_agile.track_page_view();
+_agile_execute_web_rules();};
+</script>
+
+
 </body>
 </html>
