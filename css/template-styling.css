@@ -146,7 +146,7 @@ color: #fff;
 
 .link{
 	padding:15px 35px;
-	background:rgb(120,82,169); /* purple */
+	background:rgb(134,144,101); /* green */
 	color:#fff !important;
 	font-size:16px;
 	font-weight:400;
@@ -163,12 +163,12 @@ color: #fff;
 }
 .link:hover {
 	text-decoration:none;
-	color:rgb(120,82,169) !important;
+	color:rgb(134,144,101) !important; /* green */
 	background:#fff;
 }
 
 .link:active, .link:focus {
-	background: rgb(120,82,169);
+	background: rgb(134,144,101); 
 	text-decoration:none;
 	color:#fff !important;
 	border: none;

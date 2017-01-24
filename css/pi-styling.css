@@ -1,7 +1,5 @@
 /* below is custom css for LNQ squeeze page, not from the bootstrap template */
 
-$blue: #5CA3D1;
-
 #agile-sign-up-form {
 	margin: 0 auto;
 	text-align: center;
@@ -120,6 +118,39 @@ footer h6 {
 
 }/* for md and lg devices only */
 
+/* INPUT STYLES */
+
+form {
+	text-align: center;
+	margin: 0 auto;
+}
+form input {
+	text-align: center;
+	color: white !important;
+	box-shadow: none !important;
+	border-top: none !important;
+	border-right: none !important;
+	border-left: none !important;
+}
+
+input:focus, input:active, input:hover {
+	box-shadow: none !important;
+	border-top: none !important;
+	color: white;
+	/*border-bottom: white !important;*/
+}
+input:focus::-webkit-input-placeholder {
+	color: white;
+}
+
+/*note that button colors are done via .link in the template styling sheet*/
+
+/*  COLORS  
+background-color: rgb(67,63,64);
+green: rgb(134,144,101);
+black: rgb(0,0,0);
+white: rgb(254,254,254);
 
 
+*/
 
