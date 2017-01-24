@@ -137,7 +137,7 @@ input:focus, input:active, input:hover {
 	box-shadow: none !important;
 	border-top: none !important;
 	color: white;
-	/*border-bottom: white !important;*/
+	border-bottom: 1px solid rgb(134,144,101) !important;
 }
 input:focus::-webkit-input-placeholder {
 	color: white;
