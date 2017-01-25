@@ -71,6 +71,9 @@ footer h6 {
 .them-color2 {
 	color: gray !important;
 }
+.vis-xs-only {
+	display: none;
+}
 
 /* begin media query specific styling below */
 
@@ -79,7 +82,21 @@ footer h6 {
 
 	header {
 		margin: 0;
-		padding: 20vh 10px !important;
+		padding: 15vh 10px !important;
+		transform: scale(1.1);
+		overflow: visible;
+	}
+	h1#coming-soon-product {
+		/*transform: scale(1.3) !important;*/
+		font-size: 36px;
+		/*transition: ease-in 0.2s;*/
+		/*text-align: left;*/
+	}
+	.theme-color2 {
+		font-size: 14px;
+	}
+	.vis-xs-only {
+		display: inline;
 	}
 	footer {
 		padding: 100px;
