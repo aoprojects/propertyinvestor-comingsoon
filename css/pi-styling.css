@@ -75,15 +75,21 @@ footer h6 {
 /* begin media query specific styling below */
 
 @media only screen and (max-width: 767px) {
-	.team-leader-box {
-		width: 100hw;
-		/*padding-top: 15px;*/
-		padding-bottom: 15px;
+	/*make the page look wider on mobile */
+
+	header {
+		margin: 0;
+		padding: 60px 10px !important;
+	}
+	footer {
+		padding: 100px;
+	}
+	.container {
+		/*width: 100vw;*/
 	}
 
-	.team-leader-box p {
-		font-size: 15px;
-		padding-top: 25px;
+	h1 {
+
 	}
 
 }/* for xs devices */
@@ -110,6 +116,7 @@ footer h6 {
 	}
 } /* for tablet and all larger */
 
+
 @media only screen and (min-width: 768px) and (max-width: 991px) {
 
 }/* for sm devices only */
@@ -118,7 +125,7 @@ footer h6 {
 
 }/* for md and lg devices only */
 
-/* INPUT STYLES */
+/* INPUT FIELD STYLES */
 
 form {
 	text-align: center;
